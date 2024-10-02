@@ -3136,4 +3136,39 @@ figure.vimeo a img, figure.youtube a img {
 	
 }
 
+/* Medium screens (tablets and small desktops) */
+@media (max-width: 1200px) {
+    .headline {
+        font-size: 100px !important;
+    }
+}
+
+/* Small screens (landscape phones and tablets) */
+@media (max-width: 992px) {
+    .headline {
+        font-size: 70px !important;
+    }
+}
+
+/* Extra small screens (portrait phones) */
+@media (max-width: 768px) {
+    .headline {
+        font-size: 50px !important;
+    }
+}
+
+/* Very small screens (small phones in portrait mode) */
+@media (max-width: 480px) {
+    .headline {
+        font-size: 35px !important;
+    }
+}
+
+/* Smallest devices (phones in portrait mode) */
+@media (max-width: 320px) {
+    .headline {
+        font-size: 25px !important;
+    }
+}
+
 
